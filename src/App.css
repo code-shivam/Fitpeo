@@ -36,143 +36,23 @@
     transform: rotate(360deg);
   }
 }
-.hlo{
+.home{
   display: flex;
   justify-content: space-between;
   width: 100%;
   height: 100vh;
 }
-.aaaa{
-  width: 20%;
-  background-color: #3e1dcf;
+.colertext{
+  color: #cccccc;
 }
-.main{
-  width: 80%;
-  background-color: #61dafb;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+input,select{
+  border :none;
+  background-color: #f2efff;
+  padding: 4px;
+  border-radius: 8px;
 }
-.roundee{
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-.chart{
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  height: 40vh;
-}
-.round{
-  background-color:#ffffff;
-  width: 20%;
-  height: 17vh;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.table{
-  width: 63.1%;
-  height: 40vh;
-  background-color:#ffffff;
-  border-radius: 10px;
-}
-.pia{
-  width: 23.5%;
-  background-color:#ffffff;
-  height: 40vh;
-  border-radius: 10px;
-  padding: 0 10px;
-}
-.nav{
-display: flex;
-justify-content:space-between;
-align-items: center;
-width: 92%;
-margin-left: 4%;
-}
-.nav input{
-height: 25px;
-}
-.tabledt{
-  background-color:#ffffff;
-  height: 30vh;
-  width: 93%;
-  border-radius: 10px;
- margin-left: 4%;
- margin-top: 15px;
-}
-.all{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 25px;
-}
-.tablerow{
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 35px;
-}
-.product{
-  width: 60%;
-  text-align: start;
-}
-.small{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: 12px;
-}
-table{
- width: 100%;
-}
-.tableinside{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin :0 20px;
-}
-.universal{
-  background-color: rgb(62, 119, 62);
-  width: 45%;
-  height: 14vh;
-  border-radius: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.green{
-  background-color: rgb(62, 119, 62);
-}
-.blue{
-  background-color: rgb(40, 58, 155);
-}
-.aqua{
-  background-color:aqua;
-}
-
-.pink{
-  background-color: rgb(187, 79, 197);
-}
-.aline{
-text-align: start;
-}
-
-.hiio{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.hiio p{
-  width: 80%;
-  height: 4vh;
-  margin-left: 10%;
-  text-align: start;
-  display: flex;
-  align-items: center;
-  justify-content:  space-between;
+@media (max-width:750px) {
+  .colertex{
+    font-size: 10px;
+  }
 }
